@@ -9,7 +9,7 @@ import os
 
 # load_dotenv()
 TOKEN = "5995712564:AAF4vJ2WOchPValXRWqFMjzn3GspG23bfQk"
-bot = telebot.TeleBot('TOKEN')
+bot = telebot.TeleBot(TOKEN)
 
 
 def get_random_city():
