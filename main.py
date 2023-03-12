@@ -2,13 +2,14 @@
 # Бот следит что бы пользователь не повторял города которые 
 # уже были и города которые не подходят на ответ.
 
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import random
 import telebot
 import os
 
-load_dotenv()
-bot = telebot.TeleBot(os.getenv('TOKEN'))
+# load_dotenv()
+TOKEN = "5995712564:AAF4vJ2WOchPValXRWqFMjzn3GspG23bfQk"
+bot = telebot.TeleBot('TOKEN')
 
 
 def get_random_city():
